@@ -1,0 +1,171 @@
+/* row-laptop */
+h3{
+  color: #26797c;
+  font-weight: 600;
+}
+.lapt{
+  width: 100%;
+}
+.articulos{
+  margin-left: 220px;
+}
+.space{
+  margin-left: 270px;
+}
+.unart{
+  padding-top: 1%;
+  border: 2px solid #c6dde2;  line-height: 0.9;
+  color: #1ba5ab;
+  font-weight: 700;
+  background-color: white;
+  letter-spacing: 0.5px;
+  line-height: 0.4;
+}
+.imgcancel{
+  width: 7%;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+.subtitle{
+  color: #26797c;
+  font-weight: 600;
+  font-size: large;
+}
+.title{
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+/* segunda parte ///////////////////////////////*/
+.espaciobtn{
+  padding: 2px;
+  /* width: 25%; */
+  margin-right: 1%;
+}
+.btnreclamar{
+  font-weight: 600;
+  color: red;
+  text-align: left;
+}
+.celeste{
+  background-color: #46ccd0;
+  color: white;
+}
+
+/* cuartaa////////////////////////////////// */
+.plomo{
+  color: white;  
+  background-color: gray;
+}
+.evalu{
+  text-align: left;
+}
+.add{
+  display: inline-block;
+  text-align: right;
+  margin-left: 680px;
+}
+.imgagregar{
+  float: right;
+  width: 4%;
+  margin-top: 1.5%;
+  margin-right: 1.9%;
+}
+
+/* AGREGAR ARTICULOS///////////////////////////////////////////////////// */
+
+.articulobtn{
+  font-weight: 600;
+  font-size: large;
+  border: 1px solid#087A7E; 
+  width: 100%;
+  padding: 4% 20% ;
+  color: white;
+  margin-bottom: 3%;
+  background-color: #087A7E;
+  
+}
+.imgadd{
+  padding: 5%;
+  height: 200px;
+  width: 60%;
+}
+.imgadd2{
+  padding: 5%;  
+  height: 200px;
+  width: 30%;
+}
+.imgadd3{
+  padding: 5%;  
+  margin-bottom: 5%;
+  height: 160px;
+  width: 39%;
+}
+.cente{
+  background-color: #1ba5ab;
+}
+.cancel{
+  width: 2%;
+  margin-left: 97%;
+  margin-bottom: 1%;
+}
+.candado{
+  margin-left: 850px;
+  margin-top: 2%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

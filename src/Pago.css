@@ -1,0 +1,52 @@
+  /* AGRGAR LAPTOP/////////////////////////////// */
+  .formacont{
+    margin: 5% 0 5% 0;
+}
+.subtitle2{
+    margin-left: 4%;
+    color: #26797c;
+    font-weight: 600;
+    font-size: large;
+}
+.contaddlap{
+    padding: 5% 15%;
+}
+.imtamaño{
+    width: 90%;
+    margin:3% 0 3% 0%;
+}
+.imtamaño2{
+    width: 86%;
+    margin:3% 0 3% 2%;
+}
+.onlybtn1{
+    /* margin: 9% 2%; */
+    /* margin-left: -25%; */
+}
+.onlybtn2{
+    margin:5% 0 0% 65%;
+    padding: 1% 5% 1% 10%;
+}
+
+.imptgrop{
+  padding: 2%;
+  background-color: white;
+}
+
+.green{
+  color: green;
+  font-size: 170%;
+}
+
+.gray{
+  color: #595C59;
+  font-size: 170%;
+}
+.reg{
+margin-right: 40px;
+}
+.btnp{
+  /* margin-top: 10px; */
+  padding: 3% 25% 0% 6%;
+}
+

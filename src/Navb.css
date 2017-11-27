@@ -1,0 +1,78 @@
+/* listas */
+body{
+  background-color: #197c802e;
+}
+.y-home{
+  height: 100%;
+}
+.y-menu{
+  list-style: none !important;
+  
+}
+.y-menu a{
+  text-decoration: none;
+  color: #dcdfe2;
+  line-height: 67px;
+}
+.y-menu a:hover{
+  color: #127E2D;
+  text-decoration: none;
+}
+
+.y-web-nav {
+  width: 18%;
+  background:#197c80;    height: 100%;
+  /* overflow: auto; */
+  float: left;
+  z-index: 20;
+  position: fixed;
+  left: 0px;
+  /* min-height: 600px; */
+  /* opacity: 0.9; */
+}
+
+/* .y-logo {
+  margin: 70px auto 85px auto;
+  display: block;
+  width: 80px;
+  height: auto;
+} */
+
+.responsive{
+  width: 100%;
+  background-color: white;
+  padding:3%;
+  
+}
+.cont{
+  text-align: center;
+  padding: 7% 0 2% 2%;
+}
+.user{
+  width:20%;
+  height: 50px;
+ /* margin-right: 3%; */
+  border-radius: 50%;
+  float: left;
+}
+.email{
+  color: white;
+  padding-top: 7%;
+  padding-left: 15%;
+}
+.y-menu{
+  /* background-color: red; */
+  clear: both; 
+  /* text-align: center; */
+  /* para limpiar el floar  */
+}
+
+.cont1{
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.botoneshov:hover{
+  background-color: red;
+}
